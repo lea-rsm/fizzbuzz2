@@ -1,9 +1,3 @@
 def fizzbuzz(n)
-
-    if n%15 == 0; "fizzbuzz"
-    elsif n%3 == 0 ; "fizz"
-    elsif n%5 == 0 ; "buzz"
-
-    else nil
-    end
+    n%15 == 0 ? "fizzbuzz" : n%3 == 0 ? "fizz" :  n%5 == 0 ? "buzz" : nil
 end
